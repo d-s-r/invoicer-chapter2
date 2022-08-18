@@ -13,7 +13,7 @@ jobs:
    - run: 
       name: Setup environment
       command: |
-       gb="/src/github.com/${CIRCLE_PROJECT_USERNAME}";
+       gb="/go/src/github.com/${CIRCLE_PROJECT_USERNAME}";
        if [ ${CIRCLE_PROJECT_USERNAME} == 'Securing-DevOps' ]; then
          dr="securingdevops"
        else
